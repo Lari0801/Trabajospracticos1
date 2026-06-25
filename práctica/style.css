@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+    #p1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#b1{
+    background-color: rgb(61, 139, 230);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+#b2{
+    background-color:rgb(61, 139, 230);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+#b3{
+    background-color: rgb(61, 139, 230);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+#b4{
+    background-color:rgb(61, 139, 230);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+#b1:hover{
+    background-color: rgb(86, 165, 255);
+    transform: scale(1.2);
+}
+#b2:hover{
+    background-color: rgb(86, 165, 255);
+    transform: scale(1.2);
+}
+#b3:hover{
+    background-color: rgb(86, 165, 255);
+    transform: scale(1.2);
+}
+#b4:hover{
+    background-color: rgb(86, 165, 255);
+    transform: scale(1.2);
+}
