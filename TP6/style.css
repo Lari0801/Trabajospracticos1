@@ -46,6 +46,20 @@ div{
     border: none;
     border-radius: 20px;
 }
+#b5{
+    background-color:rgb(61, 139, 230);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+#b6{
+    background-color:rgb(61, 139, 230);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
 #b1:hover{
     background-color: rgb(86, 165, 255);
     transform: scale(1.2);
@@ -59,6 +73,14 @@ div{
     transform: scale(1.2);
 }
 #b4:hover{
+    background-color: rgb(86, 165, 255);
+    transform: scale(1.2);
+}
+#b5:hover{
+    background-color: rgb(86, 165, 255);
+    transform: scale(1.2);
+}
+#b6:hover{
     background-color: rgb(86, 165, 255);
     transform: scale(1.2);
 }
