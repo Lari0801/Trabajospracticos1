@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+   
+}
+
+#b1{
+    background-color: rgb(208, 140, 222);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+}
+#b1:hover{
+    background-color: rgb(227, 174, 238);
+    transform: scale(1.2)
+}
