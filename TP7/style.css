@@ -2,6 +2,10 @@ body{
     height: 100vh;
    
 }
+p{
+    font-size: 30px;
+    color:black;
+}
 
 #b1{
     background-color: rgb(208, 140, 222);
@@ -11,7 +15,43 @@ body{
     border-radius: 20px;
     width: 150px;
 }
+#b2{
+    background-color: rgb(208, 140, 222);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+}
+#b3{
+    background-color: rgb(208, 140, 222);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+}
+#b4{
+    background-color: rgb(208, 140, 222);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+}
 #b1:hover{
+    background-color: rgb(227, 174, 238);
+    transform: scale(1.2)
+}
+#b2:hover{
+    background-color: rgb(227, 174, 238);
+    transform: scale(1.2)
+}
+#b3:hover{
+    background-color: rgb(227, 174, 238);
+    transform: scale(1.2)
+}
+#b4:hover{
     background-color: rgb(227, 174, 238);
     transform: scale(1.2)
 }
