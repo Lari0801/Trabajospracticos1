@@ -72,3 +72,28 @@ boton5.onclick = function (){
 }
 
 //actividad 6
+let diaLaboral = "lunes";
+let parrafo6 = document.querySelector('#p6');
+let boton6 = document.querySelector("#b6");
+
+boton6.onclick = function (){
+
+if (diaLaboral == "lunes" || diaLaboral == "martes" || diaLaboral == "miercoles" || diaLaboral == "jueves" || diaLaboral == "viernes") {
+    parrafo6.textContent = "Es un día laborable";
+} else if (diaLaboral == "sabado" || diaLaboral == "domingo") {
+    parrafo6.textContent = "Es fin de semana";
+}
+}
+
+//actividad 7
+let contraseña = "secreto";
+let parrafo7 = document.querySelector('#p7');
+let boton7 = document.querySelector('#b7');
+
+boton7.onclick = function () {
+    if (contraseña == "secreto") {
+        parrafo7.textContent = "Acceso concedido";
+    } else {
+        parrafo7.textContent = "Acceso denegado";
+    }
+}
