@@ -45,6 +45,7 @@ let boton4 = document.querySelector("#b4")
 boton4.onclick = function (){
 if (numero4.value > 0) {
     parrafo4.textContent = "El número es positivo";
+
 } else if (numero4.value < 0) {
     parrafo4.textContent = "El número es negativo";
 } else {
