@@ -113,7 +113,7 @@ let p7 = document.querySelector("#p7");
 
 function cambiar2(modo2){
      if (modo2 == "modo claro") {
-        body.style.backgroundColor = "white";
+        body.style.backgroundColor = "antiquewhite";
         body.style.color = "black";
         p7.textContent = "modo claro activado";
     }
