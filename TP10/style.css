@@ -1,0 +1,24 @@
+body {
+    background-color: #FAF0E6;
+    color: #3E2723;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #5D4037;
+    font-family: Georgia, serif;
+    font-size: 38px;
+}
+
+h2 {
+    color: #795548;
+    font-family: "Palatino Linotype", serif;
+    font-size: 29px;
+}
+
+h3 {
+    color: #8D6E63;
+    font-family: Georgia, serif;
+    font-size: 23px;
+}
