@@ -114,4 +114,9 @@ console.log(tareas.length)
 tareas.push("Pasear al perro")
 tareas.push("Preparar la cena")
 console.log(tareas)
-tareas.unshift()
+tareas.unshift("Entregar un trabajo")
+console.log(tareas)
+console.log(tareas.indexOf("Estudiar"));
+console.log(tareas.indexOf("Preparar la cena"));
+console.log(tareas.indexOf("Lavar el auto"));
+
