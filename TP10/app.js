@@ -119,4 +119,67 @@ console.log(tareas)
 console.log(tareas.indexOf("Estudiar"));
 console.log(tareas.indexOf("Preparar la cena"));
 console.log(tareas.indexOf("Lavar el auto"));
+console.log(tareas.shift())
+console.log(tareas.pop())
+tareas.push("Leer un libro")
+tareas.unshift("Hacer ejercicio")
+console.log(tareas)
+console.log(tareas.length)
 
+//actividad 7
+let peliculas = ["Toy Story","Shrek","Buscando a Nemo","Los Increíbles","Ratatouille"];
+
+console.log (peliculas)
+console.log(peliculas.length)
+peliculas.push("Cars")
+peliculas.push("Monsters, Inc.")
+console.log(peliculas)
+peliculas.unshift("Intensamente")
+peliculas.unshift("Coco")
+console.log(peliculas)
+console.log(peliculas.indexOf("Shrek"));
+console.log(peliculas.indexOf("Coco"));
+console.log(peliculas.indexOf("Frozen"));
+let buscar = peliculas.indexOf("Cars");
+
+if (buscar != -1) {
+    console.log("Cars está en la lista");
+} else {
+    console.log("Cars no está en la lista");
+}
+console.log(peliculas.pop())
+console.log(peliculas.shift())
+peliculas.unshift ("Up")
+console.log(peliculas.indexOf("Up"));
+console.log(peliculas)
+console.log(peliculas.length)
+
+//actividad 8
+let tienda = ["Celular","Notebook","Tablet","Teclado","Mouse"];
+
+console.log(tienda)
+console.log(tienda.length)
+tienda.push("Monitor")
+tienda.push("Impresora")
+tienda.unshift("Cámara web")
+tienda.unshift("Micrófono")
+console.log(tienda)
+console.log(tienda.length)
+console.log(tienda.indexOf("Notebook"));
+console.log(tienda.indexOf("Micrófono"));
+console.log(tienda.indexOf("Parlante"));
+console.log(tienda.pop())
+console.log(tienda.shift())
+console.log(tienda)
+tienda.push("Parlantes")
+tienda.unshift("Auriculares")
+console.log(tienda)
+console.log(tienda.indexOf("Parlantes"));
+console.log(tienda.indexOf("Auriculares"));
+console.log(tienda.indexOf("Celular"));
+console.log(tienda.pop())
+console.log(tienda.shift())
+console.log(tienda)
+console.log (tienda.length)
+
+//Hecho por Lara Diaz Gatica. 3°I
